@@ -11,8 +11,8 @@ const typeDefs = `#graphql
   type Book {
     title: String
     author: String
-    number: number
-    price: number
+    number: Int
+    price: Int
   }
 
   # The "Query" type is special: it lists all of the available queries that
